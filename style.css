@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    text-align: center;
+  }
+
+  .right {
+    float: right;
+  }
+
+li {color:red}
+
+.navtext {color:yellow}
+
+.portimages {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width:576px;
+  height:432px;
+}
+
+.align
+{text-align: center;}
+
+.area {
+  cols:40;
+  rows:5;
+}
+  
