@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <title>Ryan's Developer Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Ryan's Developer Portfolio</title>
 </head>
-<body class= "container" style="background-image: url('images\white_background.jpg');">
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">  
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigate <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="./portfolio.html">Portfolio</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-              <li><a href="./index.html">About Me</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+<body class="container" style="background-image: url('images\white_background.jpg');">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigate <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./portfolio.html">Portfolio</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./index.html">About Me</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Contact elements-->
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <h3></h3><b style="color:blueviolet">RyanCodes360@gmail.com</b>
+            </div>
+            </h3>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3"><b style="color:blueviolet">I am located in Newmarket,
+                ON, Canada</b></div>
     </div>
-  </nav>
-    
-  <div class="container">  
+    <div class="col-sm-12 col-md-3col-lg-3"><a href="https://github.com/ryanbrowne360"><u
+                style="color:blueviolet"><b>GitHub</b></u></a></h3>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <H3><a href="http://www.Linkedin.com/in/ryanbrowne360"><u style="color:blueviolet"><b>LinkedIn</b></u></a>
+            </h3>
+        </div>
 
-    <div class="row" style="color:blueviolet">
-      <div class= "col-sm-12 col-md-4 col-lg-4  contactmargin"><H3>Phone:<br><br><a href="./examplehl.html"><u>(905) *** ****</u></a></H3></div>
-        <div class="col-sm-12 col-md-4 col-lg-4 contactmargin"><h3>Email:<br><br><a href="./examplehl.html"><u>Ryan******@gmail.com</u></a></h3></div>
-        <div class="col-sm-12 col-md-4 col-lg-4 contactmargin"><h3>Github:<br><br><a href="./examplehl.html"><u>Ryan********</u></a></h3></div>
+    </div>
+    </div>
 
-        <div class="row" style="color:blueviolet">
-          <div class= "col-sm-12 col-md-4 col-lg-4 contactmargin"><H3>LinkedIn <br><br><a href="./examplehl.html"><u>Linkedin.com/in/ryan-******-xxx/</u></a></h3></div>
-            <div class="col-sm-12 col-md-4 col-lg-4 contactmargin"><h3>Facebook:  <br><br><a href="./examplehl.html"><u>Facebook.com/*****</u></a></h3></div>
-            <div class="col-sm-12 col-md-4 col-lg-4 contactmargin"><h3>Location: <br><br><a href="./examplehl.html"><u>Newmarket, ON, Canada</u></a></h3></div>
+    <div class="container">
 
-          
-</div>
-<div class="container">
+        <form>
+            <div class="form-group align">
+                <h1>Contact</h1>
+                <label for="exampleInputName">Name</label>
+                <input class="form-control" id="comment" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group align">
+                <label for="ExampleInputEmail">Email Address</label>
+                <input type="Email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="form-group align">
+                <label for="ExampleInputMessage">Message</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <div class="align">
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
-<form>
-  <div class="form-group align">
-    <h1>Contact</h1>
-    <label for="exampleInputName">Name</label>
-    <input  class="form-control" id="comment" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group align">
-    <label for="ExampleInputEmail">Email Address</label>
-    <input type="Email" class="form-control" id="exampleInputEmail1">
-  </div>
-  <div class="form-group align">
-    <label for="ExampleInputMessage">Message</label>
-   <textarea class="form-control" rows="5" id="comment"></textarea>
-  </div>
-<div class="align">
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-</div>
-
-<!-- Contact code before using bootstrap. Somehow it centered itself:
+    <!-- Contact code before using bootstrap. Somehow it centered itself:
 <H1 style="color:white">P: 289 XXX XXXX<br><br>E: RXXXXXX@Gmail.com <br><br>A: 123 Main street Newmarket<br><br>Github: RyanBrowne360<br><br>LinkedIn: XXXXXXXX<br><br>Facebook: Facebook.com/ </H1>
 -->
-    
+
 </body>
+
 </html>

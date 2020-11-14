@@ -36,15 +36,23 @@ li {color:red}
 }
 
 .contactmargin{
-  margin-top: 0px;
-  margin-right: 1px;
-  margin-bottom: 0px;
-  margin-left: 1px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .move {
-  display: flex;
+  display: inside;
   justify-content: center;
+  
+}
+
+/*.portmarg{
+  margin-top: 0px;
+  margin-right: 700px;
+  margin-bottom: 0px;
+  margin-left: 20px;
 }
 
   
