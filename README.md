@@ -6,8 +6,8 @@ For this project, I have updated my portfolio website page, along with updating 
 
 Installation:
 
-This program is very user friendly and does not require any special instructions for installation. As long as the user has access to a browser which enables javascript, they are able to deploy this application.
-A recomended browser which has Javascript enabled is google chrome. It can be downloaded here: https://www.google.ca/chrome/
+This program is very user friendly and does not require any special instructions for installation. As long as the user has access to a web browser, they are able to deploy this application.
+A recomended browser would be google chrome. It can be downloaded here: https://www.google.ca/chrome/
 
 [Link to Portfolio Website](https://ryanbrowne360.github.io/PortfolioPageUpdate1/)
 
@@ -16,8 +16,7 @@ Usage:
 The portfolio page is designed to tell potential employers or clients about me, and what I am capable of developing for them. They are able to access my other professional pages such as github and linkedin. The user is also able to contact me through multiple sources. Furthermore, they are able to see projects which I have succeeded in deploying.
 
 - *Google Chrome*
-- *JavaScript*
-- *JQuery*
+- *BootStrap*
 - *HTML*
 - *CSS*
 - *Ryan Browne Software Developer* [Ryan Browne](https://github.com/ryanbrowne360/)
@@ -26,10 +25,6 @@ References:
 
 - [w3schools](https://www.w3schools.com/)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-- [Moment.js Documentation](https://momentjs.com/docs/)
-- [JQuery Documentation](https://api.jquery.com/)
-- [Open Weather API](https://openweathermap.org/)
-- [Font Awesome](https://fontawesome.com/)
 
 License:
 
