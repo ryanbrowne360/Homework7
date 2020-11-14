@@ -27,4 +27,24 @@ li {color:red}
   cols:40;
   rows:5;
 }
+
+.padding{
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.contactmargin{
+  margin-top: 0px;
+  margin-right: 1px;
+  margin-bottom: 0px;
+  margin-left: 1px;
+}
+
+.move {
+  display: flex;
+  justify-content: center;
+}
+
   

@@ -2,7 +2,7 @@
 
 Description:
 
-For this project, I have updated my portfolio website page, along with updating my github profile, and creating a new resume specific to seeking employement as a web developer.
+For this project, I have updated my portfolio website page, along with updating my github profile, and created a new resume specific to seeking employement as a web developer.
 
 Installation:
 
